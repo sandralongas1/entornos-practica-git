@@ -49,3 +49,69 @@ Si la cita en cuestión se compone de varios párrafos, deberás añadir el mism
         > > Dentro de ella puedes anidar otra cita.
         > 
         > La cita principal llegaría hasta aquí. 
+
+### Listas
+
+A diferencia de lo que ocurre en HTML, generar listas en Markdown es tremendamente sencillo. Puedes encontrarte con dos tipos.
+
+Listas desordenadas
+Para crear listas desordenadas utiliza * asteriscos, - guiones, o + símbolo de suma.  
+        
+        - Elemento de lista 1
+        - Elemento de lista 2
+        * Elemento de lista 3
+        * Elemento de lista 4
+        + Elemento de lista 5
+        + Elemento de lista 6
+  
+Da igual qué elemento escojas, incluso puedes intercambiarlos. Todos se verán igual al procesarse.
+
+        Elemento de lista 1
+        Elemento de lista 2
+        Elemento de lista 3
+        Elemento de lista 4
+        Elemento de lista 5
+        Elemento de lista 6
+Para generar listas anidadas dentro de otras, simplemente tendrás que añadir **cuatro espacios en blanco antes del siguiente *, - o +.
+
+        - Elemento de lista 1
+        - Elemento de lista 2
+            - Elemento de lista 3
+            - Elemento de lista 4
+                - Elemento de lista 5
+                - Elemento de lista 6
+        Elemento de lista 1
+        Elemento de lista 2
+        Elemento de lista 3
+        Elemento de lista 4
+        Elemento de lista 5
+        Elemento de lista 6
+        Listas ordenadas
+Para crear listas ordenadas debes utilizar la sintaxis de tipo: «número.» 1.. Al igual que ocurre con las listas desordenadas, también podrás anidarlas o combinarlas.
+
+        1. Elemento de lista 1
+        2.  Elemento de lista 2
+            - Elemento de lista 3
+            - Elemento de lista 4
+                1. Elemento de lista 5
+                2. Elemento de lista 6
+        Elemento de lista 1
+        Elemento de lista 2
+        Elemento de lista 3
+        Elemento de lista 4
+        Elemento de lista 5
+        Elemento de lista 6
+
+### Códigos de bloque
+Si quieres crear un bloque entero que contenga código. Lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por tres ~ virgulillas.
+
+Tal que así:  
+
+        ~~~
+        Creando códigos de bloque.
+        Puedes añadir tantas líneas y párrafos como quieras.  
+        ~~~
+        De esta forma, obtendrás el siguiente resultado:
+        
+        Creando códigos de bloque.
+        Puedes añadir tantas líneas y párrafos como quieras.
