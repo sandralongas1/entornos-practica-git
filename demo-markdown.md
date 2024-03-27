@@ -146,3 +146,46 @@ Por supuesto si quieres utilizar los dos tipos de énfasis no tienes más que co
 
         ***cursiva y negrita***	cursiva y negrita
         ___cursiva y negrita___	cursiva y negrita
+### Links o enlaces como referencia
+Links o enlaces como referencia
+La desventaja del método anterior, es que si utilizas links demasiado complejos o largos pueden dificultarte la lectura de tu texto.
+
+Para solucionarlo y crear tu contenido de una manera más ordenada puedes generar enlaces de referencia.
+
+Esto quiere decir que en tu texto enlazarás palabras o códigos concretos (formados por letras y/o números), que en otro lugar más apartado de tu documento tendrás definidos como determinadas URL.
+
+[Referencia para plantas][plantas]  
+[plantas]: https://viveiroscultiflor.pt/es/
+Esto se ve más claro con un ejemplo.  
+
+        Me llamo Sandra y tengo un blog sobre [produccion de plantas][plantas].
+        En dicha [web][plantas] recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.
+        [plantas]: https://viveiroscultiflor.pt/es/
+        La referencia [plantas] puede estar incluida en cualquier parte del documento, así puedes organizarte mejor y de una manera más limpia, recopilando todas tus referencias en un mismo lugar.
+
+Además como ves a continuación, esta referencia no se incluye en el resultado final, sino que desaparece.  
+
+        «Me llamo Sandra y tengo un blog sobre produccion de plantas.
+        
+        En dicha web recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.»
+### Código
+En según que tipo de publicaciones (sobre todo las de carácter técnico), necesitarás añadir pequeñas secciones donde mostrar código de otro lenguaje, atajos de teclado, o demás contenido que no debería ser tratado como tal.
+
+Para ello tienes disponible dos alternativas.
+
+Código puro <code>
+La forma más sencilla de escribir código en Markdown es envolver el texto entre dos comillas sencillas `. Esto se corresponde con la etiqueta HTML <code>
+
+        `Esto es una línea de código`
+Se verá como Esto es una línea de código.
+
+Como ves, es muy útil para introducir código dentro de la misma línea o párrafo, algo que no permite el método siguiente.
+
+Texto preformateado <pre>
+La otra manera de añadir código en Markdown es comenzar el párrafo con cuatro espacios en blanco. Esto se corresponde con la etiqueta HTML <pre>
+
+Esto es una línea de código
+Se convierte en
+
+Esto es una línea de código
+Ojo, ¡estos espacios deberás incluirlos en cada línea que escribas! Para añadir código en bloque es mejor utilizar la sintaxis que viste anteriormente: códigos de bloque.
