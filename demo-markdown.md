@@ -17,7 +17,7 @@
 3. Elementos varios
     - Links automáticos
     - Omitir Markdown
-
+## Elementos de bloque
 ### Párrafos y saltos de línea 
 Para generar un nuevo párrafo en Markdown simplemente separa el texto mediante una línea en blanco (pulsando dos veces intro).  (↵) (↵)
 
@@ -115,3 +115,36 @@ Tal que así:
         
         Creando códigos de bloque.
         Puedes añadir tantas líneas y párrafos como quieras.
+        
+### Reglas horizontales
+Las reglas horizontales se utilizan para separar secciones de una manera visual. Las estás viendo constantemente en este artículo ya que las estoy utilizando para separar los diferentes elementos de sintaxis de Markdown.
+
+Para crearlas, en una línea en blanco deberás incluir tres de los siguientes elementos: asteriscos, guiones, o guiones bajos.
+
+Es decir
+        
+        ***
+        ---
+        ___
+También puedes separarlos mediante un espacio en blanco por pura estética.
+
+        * * *
+        - - -
+        _ _ _
+        
+## Elementos de línea
+### Énfasis (negritas y cursivas)
+Markdown utiliza asteriscos o guiones bajos para enfatizar.
+
+Simplemente tendrás que envolver palabras o textos en éstos símbolos para conseguir cursivas o negritas.
+
+MARKDOWN	RESULTADO
+*cursiva*	cursiva
+_cursiva_	cursiva
+**negrita**	negrita
+__negrita__	negrita
+Por supuesto si quieres utilizar los dos tipos de énfasis no tienes más que combinar la sintaxis, envolviendo la palabra entre tres asteriscos o tres guiones bajos.
+
+MARKDOWN	RESULTADO
+***cursiva y negrita***	cursiva y negrita
+___cursiva y negrita___	cursiva y negrita
