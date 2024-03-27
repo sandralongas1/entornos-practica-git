@@ -136,15 +136,13 @@ También puedes separarlos mediante un espacio en blanco por pura estética.
 ### Énfasis (negritas y cursivas)
 Markdown utiliza asteriscos o guiones bajos para enfatizar.
 
-Simplemente tendrás que envolver palabras o textos en éstos símbolos para conseguir cursivas o negritas.
+Simplemente tendrás que envolver palabras o textos en éstos símbolos para conseguir cursivas o negritas.  
+ 
+        *cursiva*	cursiva
+        _cursiva_	cursiva
+        **negrita**	negrita
+        __negrita__	negrita
+Por supuesto si quieres utilizar los dos tipos de énfasis no tienes más que combinar la sintaxis, envolviendo la palabra entre tres asteriscos o tres guiones bajos.  
 
-MARKDOWN	RESULTADO
-*cursiva*	cursiva
-_cursiva_	cursiva
-**negrita**	negrita
-__negrita__	negrita
-Por supuesto si quieres utilizar los dos tipos de énfasis no tienes más que combinar la sintaxis, envolviendo la palabra entre tres asteriscos o tres guiones bajos.
-
-MARKDOWN	RESULTADO
-***cursiva y negrita***	cursiva y negrita
-___cursiva y negrita___	cursiva y negrita
+        ***cursiva y negrita***	cursiva y negrita
+        ___cursiva y negrita___	cursiva y negrita
