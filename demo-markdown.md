@@ -192,6 +192,7 @@ La otra manera de añadir código en Markdown es comenzar el párrafo con cuatro
 ### Imágenes
 Insertar una imagen con Markdown se realiza de una manera prácticamente idéntica a insertar links.
 Deberás añadir un símbolo de ! exclamación al principio y el enlace no será otro que la ubicación de la imagen.  
+
         ![Texto alternativo](/ruta/a/la/imagen.jpg "Título alternativo")
 El texto alternativo es lo que se mostraría si la carga de la imagen fallase.
 También podrás añadir un título alternativo entrecomillándolo al final de la ruta. Esto sería el título mostrado al dejar el cursor del ratón sobre la imagen.  
@@ -203,11 +204,11 @@ También podrás añadir un título alternativo entrecomillándolo al final de l
 
 ## Elementos varios
 ### Links automáticos
-Cuando viste los tipos de links te comenté que había un tipo más: los automáticos.
+tipos de links: los automáticos.
 
 Estos son necesarios cuando lo que quieres es mostrar una URL completa, y no un enlace enmascarado bajo una palabra o frase como ocurre con los links en línea.
 
 Para generar links automáticos tan solo tendrás que rodearlos con los símbolos < >
 
-<http://www.limni.net>
+<http://www.limni.net>  
 http://www.limni.net
