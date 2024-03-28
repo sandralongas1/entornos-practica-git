@@ -14,24 +14,23 @@
     - Links o enlaces
     - Código
     - Imágenes
-3. Elementos varios
-    - Links automáticos
-    - Omitir Markdown
+
 ## Elementos de bloque
 ### Párrafos y saltos de línea 
 Para generar un nuevo párrafo en Markdown simplemente separa el texto mediante una línea en blanco (pulsando dos veces intro).  (↵) (↵)
 
 Para realizar un salto de línea y empezar una frase en una línea siguiente dentro del mismo párrafo, tendrás que pulsar dos veces la barra espaciadora (--) (--) antes de pulsar una vez intro (↵).  
 
-Por ejemplo si quisieses escribir un poema Haiku quedaría tal que así:
+Por ejemplo si quisieses escribir un poema quedaría tal que así:
             
         «Andando con sus patitas mojadas, (--) (--)  
         el gorrión (--) (--)    
         por la terraza de madera»
 
 Donde cada verso tiene dos espacios en blanco al final.
+
 ### Encabezados
-Almohadillas son uno de los métodos utilizados en Markdown para crear encabezados. Debes usarlos añadiendo uno por cada nivel.  
+Las almohadillas son uno de los métodos utilizados en Markdown para crear encabezados. Debes usarlos añadiendo uno por cada nivel.  
 
         # Encabezado 1
         ## Encabezado 2
@@ -72,7 +71,7 @@ Da igual qué elemento escojas, incluso puedes intercambiarlos. Todos se verán 
         Elemento de lista 4
         Elemento de lista 5
         Elemento de lista 6
-Para generar listas anidadas dentro de otras, simplemente tendrás que añadir **cuatro espacios en blanco antes del siguiente *, - o +.
+Para crear listas anidadas dentro de otras, simplemente tendrás que añadir **cuatro espacios en blanco  (--) (--) (--) (--)  antes del siguiente *, - o +.
 
         - Elemento de lista 1
         - Elemento de lista 2
@@ -103,7 +102,7 @@ Para crear listas ordenadas debes utilizar la sintaxis de tipo: «número.» 1..
         Elemento de lista 6
 
 ### Códigos de bloque
-Si quieres crear un bloque entero que contenga código. Lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por tres ~ virgulillas.
+Para crear un bloque entero que contenga código. Lo único que tienes que hacer es encerrar dicho párrafo entre dos líneas formadas por tres ~ virgulillas.
 
 Tal que así:  
 
@@ -146,6 +145,7 @@ Por supuesto si quieres utilizar los dos tipos de énfasis no tienes más que co
 
         ***cursiva y negrita***	cursiva y negrita
         ___cursiva y negrita___	cursiva y negrita
+        
 ### Links o enlaces como referencia
 Links o enlaces como referencia
 La desventaja del método anterior, es que si utilizas links demasiado complejos o largos pueden dificultarte la lectura de tu texto.
@@ -154,8 +154,8 @@ Para solucionarlo y crear tu contenido de una manera más ordenada puedes genera
 
 Esto quiere decir que en tu texto enlazarás palabras o códigos concretos (formados por letras y/o números), que en otro lugar más apartado de tu documento tendrás definidos como determinadas URL.
 
-[Referencia para plantas][plantas]  
-[plantas]: https://viveiroscultiflor.pt/es/
+        [Referencia para plantas][plantas]  
+        [plantas]: https://viveiroscultiflor.pt/es/
 Esto se ve más claro con un ejemplo.  
 
         Me llamo Sandra y tengo un blog sobre [produccion de plantas][plantas].
@@ -168,6 +168,7 @@ Además como ves a continuación, esta referencia no se incluye en el resultado 
         «Me llamo Sandra y tengo un blog sobre produccion de plantas.
         
         En dicha web recopilo artículos sobre todo lo relacionado con automatización, gestión y eficiencia.»
+        
 ### Código
 En según que tipo de publicaciones (sobre todo las de carácter técnico), necesitarás añadir pequeñas secciones donde mostrar código de otro lenguaje, atajos de teclado, o demás contenido que no debería ser tratado como tal.
 
@@ -189,6 +190,7 @@ La otra manera de añadir código en Markdown es comenzar el párrafo con cuatro
         
         Esto es una línea de código
         Ojo, ¡estos espacios deberás incluirlos en cada línea que escribas! Para añadir código en bloque es mejor utilizar la sintaxis que viste anteriormente: códigos de bloque.
+        
 ### Imágenes
 Insertar una imagen con Markdown se realiza de una manera prácticamente idéntica a insertar links.
 Deberás añadir un símbolo de ! exclamación al principio y el enlace no será otro que la ubicación de la imagen.  
@@ -200,15 +202,4 @@ También podrás añadir un título alternativo entrecomillándolo al final de l
         ![nombre de la imagen](img1)
         ![ojo](https://github.com/sandralongas1/entornos-practica-git/blob/main/imagenes/proyecto1.jpg)
 
-![](https://github.com/sandralongas1/entornos-practica-git/blob/main/imagenes/proyecto1.jpg "Arte moderno")
-
-## Elementos varios
-### Links automáticos
-tipos de links: los automáticos.
-
-Estos son necesarios cuando lo que quieres es mostrar una URL completa, y no un enlace enmascarado bajo una palabra o frase como ocurre con los links en línea.
-
-Para generar links automáticos tan solo tendrás que rodearlos con los símbolos < >
-
-<http://www.limni.net>  
-http://www.limni.net
+![](https://github.com/sandralongas1/entornos-practica-git/blob/main/imagenes/proyecto1.jpg "Arte moderno")  
