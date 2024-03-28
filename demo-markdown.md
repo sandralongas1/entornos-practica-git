@@ -204,11 +204,10 @@ Ya que al añadir imágenes también estás tratando con URLs, puedes utilizar e
 De esta forma podrías insertar una imagen  
 
         ![nombre de la imagen][img1]
-O dos, sin ensuciar tu espacio de escritura.  
-
-        ![nombre de la imagen2][img2] 
         [img1]: C:\Users\usuario\Desktop\IMG\fp.jpg "Título"
-        [img2]: /ruta/a/la/imagen2.jpg "Título alternativo"
+
+![nombre de la imagen][img1]
+[img1]: C:\Users\usuario\Desktop\IMG\fp.jpg "Título"
 
 ## Elementos varios
 ### Links automáticos
