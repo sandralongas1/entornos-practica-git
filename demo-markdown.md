@@ -207,5 +207,16 @@ De esta forma podrías insertar una imagen
 O dos, sin ensuciar tu espacio de escritura.  
 
         ![nombre de la imagen2][img2] 
-        [img1]: /ruta/a/la/imagen.jpg "Título"
+        [img1]: C:\Users\usuario\Desktop\IMG\fp.jpg "Título"
         [img2]: /ruta/a/la/imagen2.jpg "Título alternativo"
+
+## Elementos varios
+### Links automáticos
+Cuando viste los tipos de links te comenté que había un tipo más: los automáticos.
+
+Estos son necesarios cuando lo que quieres es mostrar una URL completa, y no un enlace enmascarado bajo una palabra o frase como ocurre con los links en línea.
+
+Para generar links automáticos tan solo tendrás que rodearlos con los símbolos < >
+
+<http://www.limni.net>
+http://www.limni.net
