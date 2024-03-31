@@ -124,9 +124,9 @@ body{
 
 .usuario{
 	width: 60%;
-	margin-top: 10%;
+	margin-top: 12%;
     border-radius: 100%;
-	border: 8px solid transparent;
+	border: 2px solid transparent;
 	background-size: cover;
 	background-clip:content-box, border-box;
 	background-origin:content-box, border-box ;
