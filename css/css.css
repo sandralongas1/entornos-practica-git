@@ -1,0 +1,188 @@
+nav ul{
+	list-style: none;
+	padding: 0;
+	margin: 0;
+/*			border-radius: 20px;*/
+}
+nav li{
+	text-align: center;
+	/*indicamos que los item tienen el mismo tamaño*/
+	flex-grow: 1; 
+
+}
+nav li a{
+	color: grey;
+	font-weight: bold;
+	display: block;
+	text-decoration: none;
+	padding: .60em .0em .99em .0em;
+}
+nav li a:hover{
+	background: #86CC16;
+
+	border-radius: 20px;
+	color: black;
+
+}
+/*creamos una media para pantallas de un tamaño minimo*/
+@media screen and (min-width: 600px){
+	nav ul{
+		display:flex;
+		flex-wrap: wrap;
+	}
+}
+
+body{
+	margin: 0;
+	width: 100%;
+	font-family: "candara";
+	background-color: #D6D5D5;	
+
+}
+
+#cabecera{
+	width: 100%;
+	height: 10vh;
+	background-color: white;
+}
+
+#titulo{
+	float: left;
+/*			background-color: red;*/
+	width: 20%;
+	margin-top: 1%;
+	margin-left: 2%;
+	font-size: 2.2em ;
+	color: grey;
+
+}
+
+#menu{
+	width: 30%;
+/*			background-color: orange;*/
+	float: right;
+	margin-top: 1%;
+}
+
+#principal{
+	height: 90vh;
+	background-color: #D6D5D5;	
+	padding: 2% 0% 2% 20%;
+}
+
+#panelizq{
+	float: left;
+	width: 17%;
+	height: 81vh;
+	background: white;
+
+/*			border: 1px solid grey;*/
+}
+
+#contenido{
+	float: left;
+	width: 80%;
+	height: 81vh;
+	margin-left: 2%;		
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+.scomun{
+	background-color: white;
+	width: 70%;
+	height: 30%;
+	display: flex;
+}
+
+.scomun:hover{
+	margin: 1%;
+	transition-duration: .30s;
+}
+
+.scomun a{
+	display: flex;
+	flex-direction: row;
+	text-decoration: none;
+	color: black;
+	cursor: pointer;
+}
+
+.iconoscompetencias{
+	box-flex: 1;
+	height: 80%;
+	margin: 3% 0% 0% 3%;
+}
+
+.textcompetencias{
+	width: 70%;
+	height: 20%;
+	margin:5% 10% 0% 10%;
+	text-align: justify;
+}
+
+.usuario{
+	width: 60%;
+	margin-top: 10%;
+    border-radius: 100%;
+	border: 8px solid transparent;
+	background-size: cover;
+	background-clip:content-box, border-box;
+	background-origin:content-box, border-box ;
+	box-shadow: -1px -1px 10px black;
+}
+
+#lk{
+
+}
+.imglk{
+	width: 3vh;
+	height: 3vh;
+}
+
+#descripcion{
+	margin: 10% 10% 5% 10%;
+	text-align: start;
+/*			background-color: orange;*/
+}
+
+.info{
+	font-size: 10px;
+	text-align: center;
+}
+
+.foto{
+	width: 96%;
+	margin: 2%;
+}
+
+.row{
+	display: flex;
+	flex-wrap: wrap;
+	padding: 0 4px;
+}
+/*en las cuatro columnas ponemos la propiedad flex: 25% (marcaria el tamaño de cada una), el ancho maximo tambien del 25%*/
+.column{
+/*		flex: 25;*/
+	max-width: 25%;
+	padding: 0 4px;
+}
+.tarjeta{
+	margin-top:8px;
+	border: 3px solid #5E615A;
+	vertical-align: middle;
+	background-color: whitesmoke;
+}
+.tarjeta:hover{
+	border-radius: 20px  ;
+	border: 3px solid #56850C;
+/*		transform: ;*/
+}
+
+h4{
+	text-align: center;
+}
+.texto{
+	text-align: center;
+}
