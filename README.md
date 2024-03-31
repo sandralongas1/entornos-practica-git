@@ -9,12 +9,17 @@ En la raiz del repositorio tenemos un archivo index.html que es la pagina pricip
 
 En total esta formada por:  
 - 1 pagina principal y 3 paginas segundarias.
-    -  Principal :
+    -  Principal:
         - index.html
-    -  segundarias:
+          
+    -  Secundarias:
         - java.html
         - html.html
         - sql.html
+    
 - 1 archivo css, que conforma el total de los estilos y 29 imágenes.
+  
+    - Estilos
+      - css.css
 
 
