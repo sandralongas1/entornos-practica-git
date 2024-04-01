@@ -65,6 +65,7 @@ body{
 }
 
 #principal{
+/*	width: 80%;*/
 	height: 90vh;
 	background-color: #D6D5D5;	
 	padding: 2% 0% 2% 20%;
@@ -180,9 +181,25 @@ body{
 /*		transform: ;*/
 }
 
-h4{
+h4, h3, h2{
 	text-align: center;
 }
+
 .texto{
 	text-align: center;
+	display: none;
+}
+
+.resumen{
+
+	width: 75%;
+/*	border: 2px solid grey;*/
+	margin: 0% 0% 0% 0.7%;
+}
+.resumentexto{
+	width: 98%;
+	background-color: whitesmoke;
+	padding: 1%;
+	border: 2px solid transparent;
+	box-shadow: -1px -1px 10px black;
 }
