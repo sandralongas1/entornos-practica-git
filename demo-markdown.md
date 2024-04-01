@@ -1,6 +1,7 @@
 ![Udemy](https://img.shields.io/badge/Udemy-A435F0?style=for-the-badge&logo=Udemy&logoColor=white) 
 ![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
-![https://www.linkedin.com/in/sandralongas](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+![LinkedIn](https://img.shields.io/badge/linkedin-%230077B5.svg?style=for-the-badge&logo=linkedin&logoColor=white)
+
 # Lo aprendido en Markdown
 > lo que encontraras a partir de ahora sera un indice de todo lo aplicado en este repositorio markdown.
 
@@ -148,5 +149,6 @@ También podrás añadir un título alternativo entrecomillándolo al final de l
 
         ![nombre de la imagen](img1)
         ![ojo](https://github.com/sandralongas1/entornos-practica-git/blob/main/imagenes/proyecto1.jpg)
+        
 
 ![](https://github.com/sandralongas1/entornos-practica-git/blob/main/imagenes/proyecto1.jpg "Arte moderno")  
